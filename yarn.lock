@@ -3597,6 +3597,11 @@
   "resolved" "https://registry.npmjs.org/detect-node/-/detect-node-2.1.0.tgz"
   "version" "2.1.0"
 
+"dialog-polyfill@^0.4.7":
+  "integrity" "sha512-j5yGMkP8T00UFgyO+78OxiN5vC5dzRQF3BEio+LhNvDbyfxWBsi3sfPArDm54VloaJwy2hm3erEiDWqHRC8rzw=="
+  "resolved" "https://registry.npmjs.org/dialog-polyfill/-/dialog-polyfill-0.4.10.tgz"
+  "version" "0.4.10"
+
 "diffie-hellman@^5.0.0":
   "integrity" "sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg=="
   "resolved" "https://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz"
@@ -4210,7 +4215,7 @@
     "locate-path" "^5.0.0"
     "path-exists" "^4.0.0"
 
-"firebase@^9.1.3":
+"firebase@^9.1.3", "firebase@>=8.2.4":
   "integrity" "sha512-OZA60idIzSE5c01qWUDH2plhe+s4VrwbPurAh1KxvPEhMdZSOVK3zrBFHbc7nczFYWRDQpWU6v7gTHAVSANHQg=="
   "resolved" "https://registry.npmjs.org/firebase/-/firebase-9.1.3.tgz"
   "version" "9.1.3"
@@ -4241,6 +4246,14 @@
     "@firebase/storage" "0.8.4"
     "@firebase/storage-compat" "0.1.4"
     "@firebase/util" "1.4.0"
+
+"firebaseui@^5.0.0":
+  "integrity" "sha512-Q7cf3AHDj/WzKU6F2eFRjPruMnepclF0NHYThPf/NA+2sr+JJegmJ7YmV9go3x3nMOVv7eifgt6uUTuypT+h2w=="
+  "resolved" "https://registry.npmjs.org/firebaseui/-/firebaseui-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "dialog-polyfill" "^0.4.7"
+    "material-design-lite" "^1.2.0"
 
 "flush-write-stream@^1.0.0":
   "integrity" "sha512-3Z4XhFZ3992uIq0XOqb9AreonueSYphE6oYbpt5+3u06JWklbsPkNv3ZKkP9Bz/r+1MWCaMoSQ28P85+1Yc77w=="
@@ -5616,6 +5629,11 @@
   "version" "1.0.0"
   dependencies:
     "object-visit" "^1.0.0"
+
+"material-design-lite@^1.2.0":
+  "integrity" "sha1-0ATOP+6Zoe63Sni4oyUTSl8RcdM="
+  "resolved" "https://registry.npmjs.org/material-design-lite/-/material-design-lite-1.3.0.tgz"
+  "version" "1.3.0"
 
 "md5.js@^1.3.4":
   "integrity" "sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg=="
